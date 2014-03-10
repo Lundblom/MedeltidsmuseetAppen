@@ -8,12 +8,7 @@
 	{
 		public function userNameText() 
 		{
-			addEventListener(Event.ENTER_FRAME, frameUpdater);
-		}
-		
-		public function frameUpdater(e)
-		{
-			userNameTextField.text = appEngine(parent).userName;
+			userNameTextField.text = "Välkommen " + appEngine(parent).userName;
 		}
 	}
 	

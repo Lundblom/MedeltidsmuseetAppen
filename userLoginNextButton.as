@@ -17,7 +17,7 @@
 			if(appEngine(parent).speechBox.userLoginName.text != "")
 			{
 				appEngine(parent).userName = appEngine(parent).speechBox.userLoginName.text;
-				appEngine(parent).gotoAndStop(3);
+				appEngine(parent).gotoAndStop("userMainMenu");
 			}
 		}
 	}

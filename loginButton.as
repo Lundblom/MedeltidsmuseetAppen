@@ -17,7 +17,8 @@
 		{
 			if(appEngine(parent).loginField.textBox.text == "fruJohansson1337")
 			{
-				appEngine(parent).gotoAndStop(2);
+				appEngine(parent).addChild(new passwordBox("userLoginScreen", "mainMenuScreen"));
+				appEngine(parent).removeEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 			}
 		}
 		
@@ -27,7 +28,8 @@
 			{
 				if(appEngine(parent).loginField.textBox.text == "fruJohansson1337")
 				{
-					appEngine(parent).gotoAndStop(2);
+					appEngine(parent).addChild(new passwordBox("userLoginScreen", "mainMenuScreen"));
+					appEngine(parent).removeEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 				}
 			}
 		}
