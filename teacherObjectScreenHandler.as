@@ -21,7 +21,7 @@
 		
 		public function mouseWheel(e)
 		{
-			theSlider.moveSlider(e.delta);
+			theSlider.moveSlider(-e.delta);
 			appEngine(parent).objectEntries.update(theSlider.y/theSlider.maxHeight);
 		}
 		
