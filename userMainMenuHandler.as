@@ -39,6 +39,8 @@
 			appEngine(parent).panel0.textField.text = panelArray[getIndexOf(index - 1)];
 			appEngine(parent).panel1.textField.text = panelArray[getIndexOf(index)];
 			appEngine(parent).panel2.textField.text = panelArray[getIndexOf(index + 1)];
+			
+			appEngine(parent).selectedPanel = panelArray[getIndexOf(index)];
 		}
 	}
 	

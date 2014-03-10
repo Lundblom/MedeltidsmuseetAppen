@@ -7,6 +7,8 @@
 		
 		public var userName:String = "";
 		
+		public var selectedPanel:String = "";
+		
 		public function appEngine() 
 		{
 			stop();
