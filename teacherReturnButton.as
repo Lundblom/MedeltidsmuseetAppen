@@ -8,7 +8,7 @@
 		
 		public function teacherReturnButton() 
 		{
-			super("userLoginScreen");
+			super("mainScreen");
 		}
 	}
 	

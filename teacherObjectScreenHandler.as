@@ -11,7 +11,7 @@
 		
 		public function teacherObjectScreenHandler() 
 		{
-			theSlider = new slider(200, 540);
+			theSlider = new slider(250, 550);
 			theSlider.x = 300;
 			
 			appEngine(parent).addChild(theSlider);

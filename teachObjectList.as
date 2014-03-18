@@ -5,7 +5,7 @@
 	
 	public class teachObjectList extends MovieClip {
 		
-		var entriesInList:int = 12;
+		var entriesInList:int = 15;
 		
 		var allEntries:Array = new Array("Sten", "Grus", "Vas", "Gräs", "Fest", "Olle", "Mange", "Ivar", "1337", 
 										 "Sten", "Grus", "Vas", "Gräs", "Fest", "Olle", "Mange", "Ivar", "1337", 

@@ -20,6 +20,11 @@
 				appEngine(parent).addChild(new passwordBox("userLoginScreen", "mainMenuScreen"));
 				appEngine(parent).removeEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 			}
+			if(appEngine(parent).loginField.textBox.text == "teacher")
+			{
+				appEngine(parent).addChild(new passwordBox("teacherMainScreen", "mainMenuScreen"));
+				appEngine(parent).removeEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
+			}
 		}
 		
 		public function onKeyPress(e:KeyboardEvent):void
@@ -31,6 +36,11 @@
 					appEngine(parent).addChild(new passwordBox("userLoginScreen", "mainMenuScreen"));
 					appEngine(parent).removeEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 				}
+				if(appEngine(parent).loginField.textBox.text == "teacher")
+			{
+				appEngine(parent).addChild(new passwordBox("teacherMainScreen", "mainMenuScreen"));
+				appEngine(parent).removeEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
+			}
 			}
 		}
 	}
