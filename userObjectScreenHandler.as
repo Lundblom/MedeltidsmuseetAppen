@@ -11,6 +11,17 @@
 		
 		public function userObjectScreenHandler() 
 		{
+			initialize();
+		}
+		
+		public function tearDown()
+		{
+			appEngine(parent).removeChild(img);
+			appEngine(parent).removeChild(item);
+		}
+		
+		public function initialize()
+		{
 			appEngine(parent).noteButton.addEventListener(MouseEvent.CLICK, onClickNote)
 			appEngine(parent).eyeButton.addEventListener(MouseEvent.CLICK, onClickEye)
 			appEngine(parent).textButton.addEventListener(MouseEvent.CLICK, onClickText)

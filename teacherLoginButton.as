@@ -13,7 +13,6 @@
 		
 		public function onClick(e)
 		{
-			appEngine(parent).addChild(new passwordBox("teacherMainScreen", "userLoginScreen"));
 		}
 	}
 	

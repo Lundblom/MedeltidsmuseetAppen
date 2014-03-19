@@ -8,7 +8,7 @@
 		
 		public function userMenuLogOut() 
 		{
-			super("userLoginScreen");
+			super("endingScreen");
 		}
 	}
 	
